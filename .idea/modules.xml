@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/analysis.iml" filepath="$PROJECT_DIR$/.idea/analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flask_celery/.idea/flask_celery.iml" filepath="$PROJECT_DIR$/../flask_celery/.idea/flask_celery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web_service/.idea/web_service.iml" filepath="$PROJECT_DIR$/../web_service/.idea/web_service.iml" />
     </modules>
   </component>
 </project>

@@ -10,6 +10,9 @@
 @file: common.py
 @time: 2016/7/29 17:20
 """
+import hashlib
+import time
+
 from com.transfer.db.db_engine import DBEngine
 from sqlalchemy.orm import sessionmaker
 
@@ -72,3 +75,22 @@ class ConvertTime(object):
         time_stamp = int(time.mktime(time_array))
         return time_stamp
 
+    @staticmethod
+    def timestamp_2_time(timestamp, **kwargs):
+        time_frame = kwargs.get("timeframe", "%Y-%m-%d %H:%M:%S")
+        # a = "2013-10-10 23:40:00"
+        time_array = time.localtime(timestamp)
+        time_str = time.strftime(time_frame, time_array)
+        return time_str
+
+
+class StringMD5(object):
+
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def md5(str):
+        m = hashlib.md5()
+        m.update(str)
+        return m.hexdigest()
