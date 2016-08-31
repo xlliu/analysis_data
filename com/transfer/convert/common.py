@@ -13,6 +13,7 @@
 import hashlib
 import time
 
+
 from com.transfer.db.db_engine import DBEngine
 from sqlalchemy.orm import sessionmaker
 
@@ -52,6 +53,17 @@ class ConvertDataFrames(object):
 
     @staticmethod
     def dataframes_split(dataframes):
+        # loop = True
+        # chunkSize = 20000
+        # chunks_data = []
+        # while loop:
+        #     try:
+        #         chunk = dataframes.get_chunk(chunkSize)
+        #         chunks_data.append(chunk)
+        #     except StopIteration:
+        #         loop = False
+        #         print "Iteration is stopped."
+        # data = pd.concat(chunks_data, ignore_index=True)
         _data = dataframes.data()
         _data_dtypes = dataframes.dtyplist
         _data_variable_labels = dataframes.variable_labels()
@@ -87,7 +99,7 @@ class ConvertTime(object):
 class StringMD5(object):
 
     def __init__(self):
-        pass
+        super(StringMD5, self).__init__()
 
     @staticmethod
     def md5(str):

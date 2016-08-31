@@ -13,9 +13,9 @@
 import os
 import sys
 
-from com.transfer.utils.conn import Conn
+from com.analysis.utils.conn import Conn
 
-from com.transfer.utils.config import Config
+from com.analysis.utils.config import Config
 
 
 class DBEngine(object):
@@ -31,25 +31,28 @@ class DBEngine(object):
     @staticmethod
     def __cur_file_dir():
         # 获取脚本路径
-        path = sys.path[0]
+        return os.path.dirname(os.path.abspath(__file__))
         # 判断为脚本文件还是py2exe编译后的文件，如果是脚本文件，则返回的是脚本的目录，如果是py2exe编译后的文件，则返回的是编译后的文件路径
-        if os.path.isdir(path):
-            return path
-        elif os.path.isfile(path):
-            return os.path.dirname(path)
+        # if os.path.isdir(path):
+        #     return path
+        # elif os.path.isfile(path):
+        #     return os.path.dirname(path)
 
     @staticmethod
     def database_factory(**kwargs):
         global _cf
         _conf_url = "/".join([DBEngine.__cur_file_dir(), "conf.config"])
+        print(_conf_url)
         _cf = Config(_conf_url)
         _stata_engine_default = None
         _stata_engine_data_options = None
         _stata_engine_data_base = None
         _stata_engine_data_index = None
-
+        _db_data_index = _cf.get_content("db_data_index")
+        _db_data_base = _cf.get_content("db_data_base")
+        _db_default = _cf.get_content("db_default")
+        _db_data_options = _cf.get_content("db_data_options")
         if kwargs.get("stata"):
-            _db_default = _cf.get_content("db_default")
             _stata_engine_default = Conn(
                 hostname=_db_default.get("hostname"),
                 port=_db_default.get("port"),
@@ -59,7 +62,6 @@ class DBEngine(object):
             ).db_connect_engine()
 
         if kwargs.get("stata"):
-            _db_data_options = _cf.get_content("db_data_options")
             _stata_engine_data_options = Conn(
                 hostname=_db_data_options.get("hostname"),
                 port=_db_data_options.get("port"),
@@ -69,7 +71,6 @@ class DBEngine(object):
             ).db_connect_engine()
 
         if kwargs.get("stata"):
-            _db_data_base = _cf.get_content("db_data_base")
             _stata_engine_data_base = Conn(
                 hostname=_db_data_base.get("hostname"),
                 port=_db_data_base.get("port"),
@@ -79,7 +80,6 @@ class DBEngine(object):
             ).db_connect_engine()
 
         if kwargs.get("stata"):
-            _db_data_index = _cf.get_content("db_data_index")
             _stata_engine_data_index = Conn(
                 hostname=_db_data_index.get("hostname"),
                 port=_db_data_index.get("port"),

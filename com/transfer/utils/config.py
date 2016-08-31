@@ -28,6 +28,7 @@ class Config(object):
 
     def get_content(self, section):
         result = {}
+        print(self.get_options(section))
         for option in self.get_options(section):
             value = self.cf.get(section, option)
             result[option] = int(value) if value.isdigit() else value

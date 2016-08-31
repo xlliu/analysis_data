@@ -14,7 +14,7 @@ import time
 import uuid
 
 import pandas as pd
-from com.transfer.convert.common import ConvertDataFrames, BaseDBObject
+from com.transfer.convert.common import ConvertDataFrames, BaseDBObject, StringMD5
 from pandas.io.stata import StataReader
 
 from com.transfer.utils.err import ErrorCode
@@ -23,7 +23,7 @@ from com.transfer.utils.err import ErrorCode
 class Stata(BaseDBObject):
     def __init__(self):
         super(Stata, self).__init__()
-        self._uuid = str(uuid.uuid4())
+        self._uuid = StringMD5.md5(str(uuid.uuid4()))
 
     @staticmethod
     def __stata_2_dataframes(filename):
@@ -67,23 +67,25 @@ class Stata(BaseDBObject):
                 "var": _option_content,
             }
         )
-
         try:
+            print('----------------------------------------')
             _data.to_sql(
-                self._uuid, con=self._stata_engine_data_base, if_exists=_if_exists,
-                chunksize=_chunksize, index_label="index"
+                self._uuid, con=self._stata_engine_data_base,flavor="mysql", if_exists=_if_exists,
+                chunksize=_chunksize
             )
+            print("========================================")
             _option_table.to_sql(
                 self._uuid, con=self._stata_engine_data_options, if_exists=_if_exists,
-                chunksize=_chunksize, index_label="index"
+                chunksize=_chunksize
             )
             _index_table.to_sql(
                 _table_data, con=self._stata_engine_data_index, if_exists="append",
                 chunksize=_chunksize, index=False, index_label="id"
             )
-        except Exception:
-            self.__rollback_transaction(_table_data)
-            raise ErrorCode.ERROR, "SQL Data table write Error"
+        except Exception as e:
+            # self.__rollback_transaction(_table_data)
+            print(e)
+            raise ErrorCode.ERROR("SQL Data table write Error")
         finally:
             self.session.close()
         return ErrorCode.SUCCESS
@@ -92,8 +94,7 @@ class Stata(BaseDBObject):
         data = pd.read_sql_table(
             "e5fd2b6d-090f-4a07-b3d4-9aed200a6d12", self._stata_engine_data_index,
             schema='data_base',
-            index_col='index',
-
+            index_col='index'
         )
         data_dtype = data.dtypes
 
