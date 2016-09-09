@@ -1,0 +1,339 @@
+/usr/local/python27/lib/python2.7/site-packages/pandas/io/stata.py:1375: UserWarning: 'data' is deprecated, use 'read' instead
+  warnings.warn("'data' is deprecated, use 'read' instead")
+/home/xuelong/8.30data/cgss2010append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2010append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2010append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2010append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2010append7.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append1.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2005append5.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2008append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2013append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2006append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2010append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2003append3.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2012append6.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2010append4.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+/home/xuelong/8.30data/cgss2011append2.dta
+/data/pydev/analysis/com/transfer/db/conf.config
+/data/pydev/analysis/com/transfer/db/conf.config
+['db_default', 'db_data_options', 'db_data_base', 'db_data_index', 'db_default_test', 'db_data_options_test', 'db_data_base_test', 'db_data_index_test']
+----------------------------------------
+========================================
+data into db finish

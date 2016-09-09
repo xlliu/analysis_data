@@ -15,6 +15,7 @@ import sys
 sys.path.append('../..')
 from com.transfer.core.stata import Stata
 from com.transfer.convert.theme import Theme
+from com.transfer.convert.theme import MergeTable
 
 def file_extry():
     # dir = r"C:\Users\Administrator\PycharmProjects\analysis\com\test_data"
@@ -32,9 +33,15 @@ def file_extry():
 
 
 def theme_extry():
-    dir = r"/home/xuelong/data_theme.xlsx"
+    dir = r"/home/xuelong/data_theme3.xlsx"
     Theme(dir)
+
+def merge_table():
+    result = MergeTable().met()
+    print result
 
 if __name__ == '__main__':
     # file_extry()
-    theme_extry()
+    # theme_extry()
+    merge_table()
+    

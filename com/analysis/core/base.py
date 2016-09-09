@@ -11,6 +11,7 @@
 @time: 2016/8/12 17:34
 """
 import pandas as pd
+import numpy as np
 import pygal
 import tornado.gen
 from pygal.style import LightStyle
@@ -32,31 +33,37 @@ class Base(object):
         self._stata_engine_data_options = DBEngine.database_factory(stata=True)
 
     def get_result(self, *args):
-        tables = args[1].split("-")
-        column_list = args[2].split("-")
-        column_list_param = ",".join(column_list)
-
-        result = pd.DataFrame(columns=column_list)
+        tscn = args[1].split("|")
+        column_list = [tc.split("_")[1] for tc in tscn]
+        result = pd.DataFrame()
         engine = self._stata_engine_data_base
-        for table in tables:
-            # todo 注入漏洞，时间紧先这样
-            params = [column_list_param, table]
-            sql = "select %s from %s" % tuple(params)
-            result_chunk = pd.read_sql_query(sql, engine)
-            result = pd.concat([result, result_chunk])
+        for tables_column  in tscn:
+            ts = tables_column.split("_")[0]
+            colu = tables_column.split("_")[1]
+            result_c = pd.DataFrame()
+            for table in ts.split("-"):
+                # todo 注入漏洞，时间紧先这样
+                table1 = "`"+table+"`"            
+                params = [colu, table1]
+                sql = "select %s from %s" % tuple(params)
+                result_chunk = pd.read_sql_query(sql, engine)
+                result_c = pd.concat([result_c, result_chunk], ignore_index=True)
+            result = pd.merge(result, result_c, how="right",left_index=True, right_index=True)
         result_not_nan = result.dropna(axis=0)
         return column_list, result_not_nan
 
     def generator_view(self, data):
 
         print(data)
+        data = data.replace(np.inf,np.nan).fillna(0)
         bar_chart = pygal.Bar(style=LightStyle, width=800, height=600,
                               legend_at_bottom=True, human_readable=True,
                               title='')
 
-        bar_chart.x_labels = data.index.to_series().apply(lambda x: str(x))
+        x_l = data.index.to_series().apply(lambda x: str(x))
+        bar_chart.x_labels = x_l
         for col in data.columns:
-            bar_chart.add(str(col), data[col])
+            bar_chart.add(str(col), data[col].apply(lambda x : 0 if np.isnan(x) else x))
 
         # 现在可以渲染到svg和png文件中去了：
         # ...

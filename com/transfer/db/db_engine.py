@@ -48,10 +48,10 @@ class DBEngine(object):
         _stata_engine_data_options = None
         _stata_engine_data_base = None
         _stata_engine_data_index = None
-        _db_data_index = _cf.get_content("db_data_index")
-        _db_data_base = _cf.get_content("db_data_base")
-        _db_default = _cf.get_content("db_default")
-        _db_data_options = _cf.get_content("db_data_options")
+        _db_data_index = _cf.get_content("db_data_index_test")
+        _db_data_base = _cf.get_content("db_data_base_test")
+        _db_default = _cf.get_content("db_default_test")
+        _db_data_options = _cf.get_content("db_data_options_test")
         if kwargs.get("stata"):
             _stata_engine_default = Conn(
                 hostname=_db_default.get("hostname"),

@@ -37,3 +37,19 @@ class Theme(BaseDBObject):
         finally:
             self.session.close()
         return ErrorCode.SUCCESS
+
+
+class MergeTable(BaseDBObject):
+    def met(self):
+        sql = "select * from data_index_default"
+        sql2 = "select * from data_theme"
+        dindex = pd.read_sql_query(sql, self._stata_engine_data_index)
+        dtheme = pd.read_sql_query(sql2, self._stata_engine_data_index)
+
+        index_theme = pd.merge(dindex, dtheme, how="left", left_on="cid", right_on="cid")
+        index_theme.to_sql(
+            "data_index_theme", con=self._stata_engine_data_index, chunksize= 3000
+        )
+	return "ok"
+
+

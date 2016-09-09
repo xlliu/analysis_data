@@ -6,6 +6,7 @@ from tornado.ioloop import IOLoop
 
 import tcelery
 from com.analysis.handlers.data_analysis_handlers import *
+from com.analysis.handlers.data_summany_handlers import *
 # from com.analysis.handlers.defaulthandler import MainHandler, SleepHandler, JustNowHandler, GenAsyncHandler, Users
 from com.analysis.handlers.defaulthandler import MainHandler
 
@@ -17,21 +18,23 @@ Handlers = [
     # (r"/user", Users),
 
     # todo  pass
-    (r"/single_factor_variance_analysis/(.*)_(.*)", SingleFactorVarianceAnalysis),
+    (r"/single_factor_variance_analysis/(.*)", SingleFactorVarianceAnalysis),
     # todo
-    (r"/chisquaretest/(.*)_(.*)", ChiSquareTest),
+    (r"/chisquaretest/(.*)", ChiSquareTest),
     # todo  pass
-    (r"/frequency/(.*)_(.*)", Frequency),
+    (r"/frequency/(.*)", Frequency),
     # todo  pass
-    (r"/meanvalue/(.*)_(.*)", MeanValue),
+    (r"/meanvalue/(.*)", MeanValue),
     # todo  pass
-    (r"/crosstable/(.*)_(.*)", CrossTable),
+    (r"/crosstable/(.*)", CrossTable),
     # todo
     (r"/datapivottable", DataPivotTable),
     # todo  pass
-    (r"/correlationanalysis/(.*)_(.*)", CorrelationAnalysis),
+    (r"/correlationanalysis/(.*)", CorrelationAnalysis),
     # todo  pass
-    (r"/generallinearregressionanalysis/(.*)_(.*)", GeneralLinearRegressionAnalysis),
+    (r"/generallinearregressionanalysis/(.*)", GeneralLinearRegressionAnalysis),
+    (r"/valuesummany/(.*)", ValueSummany),
+    
 ]
 
 if __name__ == "__main__":

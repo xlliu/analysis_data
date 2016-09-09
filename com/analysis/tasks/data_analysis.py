@@ -25,6 +25,7 @@ from com.analysis.core.data_pivot_table import DPT
 from com.analysis.core.frequency import Frequency
 from com.analysis.core.general_linear_regression_analysis import GLRA
 from com.analysis.core.mean_value import MV
+from com.analysis.core.value_summany import VSummany
 from com.analysis.core.single_factor_varance import SFV
 from com.analysis.db.db_engine import DBEngine
 from com.analysis.utils.err import ErrorCode
@@ -102,6 +103,11 @@ def correlation_analysis(*args):
 @celery.task()
 def general_linear_regression_analysis(*args):
     return GLRA().do_(*args)
+
+
+@celery.task()
+def value_summany(*args):
+    return VSummany().do_(*args)
 
 
 class xlliu_text(object):

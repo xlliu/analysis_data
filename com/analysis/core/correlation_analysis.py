@@ -18,7 +18,4 @@ class CA(Base):
     def do_(self, *args):
         # 相关系数大于0时说明正相关，小于0时负相关。
         column_list, result = self.get_result(*args)
-        print("["*100)
-        print(result.corr())
-        print("]"*100)
         return self.generator_view(result.corr())

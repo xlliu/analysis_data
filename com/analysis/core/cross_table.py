@@ -11,7 +11,7 @@
 @time: 2016/8/23 18:01
 """
 import pandas as pd
-
+import numpy as np
 from com.analysis.core.base import Base
 from com.analysis.utils.err import ErrorCode
 
